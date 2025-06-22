@@ -2,24 +2,28 @@
 Stroke Prediction using Machine Learning
 
 Project Description
-This project aims to predict the likelihood of a patient having a stroke based on various health-related features such as age, hypertension, heart disease, smoking status, and BMI. The dataset used comes from Kaggle and represents real-world healthcare data.
-The goal is to build and evaluate classification models that can identify potential stroke cases, which is critical in medical decision-making and early intervention.
+In this project, I built a machine learning model to predict if a person is likely to have a stroke based on health data. The dataset includes features like age, hypertension, heart disease, BMI, and smoking status.
 
-Machine Learning Algorithms Used
-Logistic Regression – A statistical method for binary classification, used to model the probability of stroke occurrence.
-Decision Tree Classifier – A flowchart-like tree structure that splits data into branches based on feature conditions.
-Naive Bayes – A probabilistic model based on Bayes' Theorem with strong independence assumptions.
+What I Did
+Loaded and cleaned the stroke dataset from Kaggle
+Handled missing values and encoded categorical features
+Scaled numerical features
+Trained and tested three models:
+Logistic Regression
+Decision Tree
+Naive Bayes 
 
-Final model choice was made based on evaluation using F1-score and confusion matrices, with Logistic Regression selected for its better performance on imbalanced data.
+How I Chose the Best Model
+I looked at Accuracy and F1 Score
+I also used confusion matrices to see how well each model predicted stroke cases
+The dataset is imbalanced (very few stroke cases), so F1 Score was more important than accuracy
+Final choice: Logistic Regression – It had the best F1 Score and handled the imbalanced data better
 
-Libraries Used
-Pandas – For data loading and preprocessing
-NumPy – For numerical operations
-Matplotlib & Seaborn – For visualization and plotting confusion matrices
-Scikit-learn (sklearn) – For:
-Model implementation (LogisticRegression, DecisionTreeClassifier, GaussianNB)
-Data preprocessing (StandardScaler, train_test_split)
-Evaluation metrics (accuracy_score, f1_score, confusion_matrix)
+Tools and Libraries Used
+Python
+Pandas and NumPy
+Matplotlib and Seaborn (for plots)
+Scikit-learn (for machine learning models and evaluation)
 
 Dataset
 Source: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
