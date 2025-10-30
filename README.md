@@ -34,9 +34,9 @@ Because the dataset is imbalanced (few stroke cases), the **F1 Score** was more 
 Source: [Stroke Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 
 ## Author
-**Zarema Harachik**  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/YOUR-LINK-HERE)  
-- 💻 [GitHub](https://github.com/ZaremaHarachik)
+**Zarema Kharachyk**  
+-  [LinkedIn](https://www.linkedin.com/in/zarema-kharachyk/)  
+
 
 Dataset:
 Source: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
