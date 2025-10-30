@@ -19,6 +19,10 @@ I also used confusion matrices to see how well each model predicted stroke cases
 The dataset is imbalanced (very few stroke cases), so F1 Score was more important than accuracy
 Final choice: Logistic Regression – It had the best F1 Score and handled the imbalanced data better
 
+What I learned:
+Learned to clean and preprocess data, train and evaluate models, and interpret results. 
+This project helped me practice coding, problem-solving, and debugging, and inspired me to continue exploring data science.
+
 Tools and Libraries Used:
 Python
 Pandas and NumPy
