@@ -1,34 +1,42 @@
-# Final_ML_Project:
-Stroke Prediction using Machine Learning
+# Stroke Prediction using Machine Learning
 
-Project Description:
-In this project, I built a machine learning model to predict if a person is likely to have a stroke based on health data. The dataset includes features like age, hypertension, heart disease, BMI, and smoking status.
+## Project Overview
+This project predicts the likelihood of a person having a stroke based on health-related factors such as age, hypertension, heart disease, BMI, and smoking status. The goal was to build and evaluate different machine learning models to identify which performs best on imbalanced medical data.
 
-What I Did:
-Loaded and cleaned the stroke dataset from Kaggle
-Handled missing values and encoded categorical features
-Scaled numerical features
-Trained and tested three models:
-Logistic Regression Model,
-Decision Tree, 
-and Naive Bayes Theorem 
+## What I Did
+- Loaded and cleaned the stroke dataset from Kaggle  
+- Handled missing values and encoded categorical features  
+- Scaled numerical features for consistent model performance  
+- Trained and tested three models:  
+  - Logistic Regression  
+  - Decision Tree  
+  - Naive Bayes  
+- Compared models using Accuracy and F1 Score  
+- Used confusion matrices to evaluate predictions and balance between precision and recall  
 
-How I Chose the Best Model:
-I looked at Accuracy and F1 Score
-I also used confusion matrices to see how well each model predicted stroke cases
-The dataset is imbalanced (very few stroke cases), so F1 Score was more important than accuracy
-Final choice: Logistic Regression – It had the best F1 Score and handled the imbalanced data better
+## Model Selection
+Because the dataset is imbalanced (few stroke cases), the **F1 Score** was more important than simple accuracy.  
+- **Final Choice:** Logistic Regression — it achieved the best F1 Score and handled the imbalance more effectively.
 
-What I learned:
-Learned to clean and preprocess data, train and evaluate models, and interpret results. 
+## What I Learned
+- How to clean and preprocess real-world datasets  
+- How to train, evaluate, and compare multiple models  
+- How to interpret model performance metrics like accuracy, precision, recall, and F1 Score  
+- Gained experience with debugging, problem-solving, and exploring data science workflows  
 
-This project helped me practice coding, problem-solving, and debugging, and inspired me to continue exploring data science.
+## Tools and Libraries Used
+- **Python**  
+- **pandas**, **NumPy** – for data cleaning and preprocessing  
+- **matplotlib**, **seaborn** – for visualization  
+- **scikit-learn** – for building and evaluating models  
 
-Tools and Libraries Used:
-Python
-Pandas and NumPy
-Matplotlib and Seaborn (for plots)
-Scikit-learn (for machine learning models and evaluation)
+## Dataset
+Source: [Stroke Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+
+## Author
+**Zarema Harachik**  
+- 🌐 [LinkedIn](https://www.linkedin.com/in/YOUR-LINK-HERE)  
+- 💻 [GitHub](https://github.com/ZaremaHarachik)
 
 Dataset:
 Source: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
