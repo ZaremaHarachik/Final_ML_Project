@@ -9,9 +9,9 @@ Loaded and cleaned the stroke dataset from Kaggle
 Handled missing values and encoded categorical features
 Scaled numerical features
 Trained and tested three models:
-Logistic Regression
-Decision Tree
-Naive Bayes 
+Logistic Regression Model,
+Decision Tree, 
+and Naive Bayes Theorem 
 
 How I Chose the Best Model:
 I looked at Accuracy and F1 Score
